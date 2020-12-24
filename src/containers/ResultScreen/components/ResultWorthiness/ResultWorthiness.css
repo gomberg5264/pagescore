@@ -1,0 +1,10 @@
+@import "../../../../styles/_variables.css";
+
+.worthiness-header {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 10px 0;
+  @media(--breakpoint-small-device) {
+    font-size: 30px;
+  }
+}

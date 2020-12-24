@@ -1,0 +1,36 @@
+@import "../../../../styles/_variables.css";
+
+.device__laptop, .device__phone {
+  .header {
+    font-family: Axiforma,sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.8px;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+}
+
+.device__phone {
+  .header {
+    @media(--breakpoint-medium-device) {
+      font-size: 44px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.device__laptop {
+  .header {
+    @media(--breakpoint-medium-device) {
+      font-size: 44px;
+    }
+    @media(--breakpoint-large-device) {
+      font-size: 52px;
+    }
+  }
+}
